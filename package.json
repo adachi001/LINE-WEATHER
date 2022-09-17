@@ -1,0 +1,21 @@
+{
+  "name": "Weather",
+  "version": "1.0.0",
+  "description": "![名称未設定.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/838372/0af0bfce-b695-b341-4e90-aeefde544562.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
